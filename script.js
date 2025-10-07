@@ -53,3 +53,7 @@ prevButton.addEventListener('click', showPrevCard);
 
 // 5. Initial display
 document.addEventListener('DOMContentLoaded', displayCard);
+const body = document.body;
+function toggleDarkMode() {
+  body.classList.toggle('dark-mode');
+}
